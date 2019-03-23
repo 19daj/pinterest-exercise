@@ -1,0 +1,97 @@
+body {
+  box-sizing: border-box;
+}
+
+div img {
+   border-radius: 5%;
+   margin-bottom: 5%;
+   margin-left: 19%;
+   margin-top: 10%;
+   width: 100%;
+}
+
+div p a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header {
+  background-color: rgba(240, 20, 139, 0.14);
+  margin-bottom: 0.3em;
+}
+
+header div {
+  width: 20%;
+}
+
+header form {
+  width: 70%;
+}
+
+header h1 {/*también puede ser header > h1*/
+  width: 5%;
+}
+
+header > * {
+  display: inline-block;
+  text-align: center;
+}
+
+h1 i {
+  color: red;
+}
+
+nav a {
+  color:inherit;
+  font-family: 'Roboto', sans-serif;
+  margin-right: 2em;
+  text-decoration: none;
+}
+
+nav a i {
+  margin-right: 0.83em;
+}
+
+label i {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+label, select option {
+  font-family: 'Roboto', sans-serif;
+}
+
+section span {
+   color:rgb(227, 20, 101);
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   padding-left:8.5em;
+}
+
+.col {
+   float:left;
+   margin: 1em 1em;
+   width: 20%;
+}
+
+.format-image:hover {
+  opacity: 0.5;
+  transform: scale(1.1);
+}
+
+.tag-bar {
+  background: rgba(240, 20, 139, 0.14);
+  }
+
+.tag-bar div {
+ background: rgba(240, 8, 92, 0.63);
+ border-radius: 1em;
+ color: white;
+ display: inline-block;
+ font-family: 'Roboto', sans-serif;
+ font-weight: bold;
+ margin-bottom: 1em;
+ margin-top: 1em;
+ text-align: center;
+ width: 9.03em;
+}
